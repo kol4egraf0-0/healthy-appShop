@@ -68,7 +68,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 weight = weight + 1;
-                weightTxt.setText(weight + " кг");
+                weightTxt.setText(weight + " центеров");
                 totalTxt.setText((weight * object.getPrice()) + "₽");
             }
         });
